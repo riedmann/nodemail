@@ -1,0 +1,8 @@
+POST http://localhost:4000/send-email
+content-type: application/json
+
+{
+    "to": "sample",
+    "subject": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "message":"Szpe"
+}
